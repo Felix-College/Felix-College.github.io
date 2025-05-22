@@ -7,10 +7,10 @@ sequenceDiagram
   participant E as Webserver
 
 A->>B: Signal to Botnet to begin attack
-B->>E: Botnet begins to overload Webserver
-D-->C: Intrusion detected through Firewall
-D->>C: Signal is sent to Firewall to block traffic overload
-
+B->>E: Botnet begins to overload Webserver help center
+D-->C: Abnormal requests detected through Firewall
+D->>C: Signal is sent to Firewall to block specific source of anomaly
+B->>C: Botnet is 
 
 
 
