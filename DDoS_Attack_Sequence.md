@@ -6,7 +6,7 @@ _Intrusion Detection System_ - Analyzes incoming webservertraffic, post firewall
 _Webserver_ - Centeral location of organization services. In this case the location of help desk  
 
 #### **DDOS Attack Diagram**  
-```mermaid
+```Mermaid
 sequenceDiagram
   participant A as Attacker
   participant B as Botnet
