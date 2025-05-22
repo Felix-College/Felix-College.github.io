@@ -5,9 +5,7 @@ _Firewall_ - Blocks webserver traffic when necessary
 _Intrusion Detection System_ - Analyzes incoming webservertraffic, post firewall, scanning for abornmalities  
 _Webserver_ - Centeral location of organization services. In this case the location of help desk  
 
-#### **DDOS Attack Diagram**
-!(https://www.mermaidchart.com/raw/d4432afc-d276-4e20-9e24-5acbd5a1eb9b?theme=light&version=v0.1&format=svg)
-
+#### **DDOS Attack Diagram**  
 ```mermaid
 sequenceDiagram
   participant A as Attacker
@@ -21,7 +19,7 @@ B->>E: Botnet begins to overload Webserver help desk
 D-->C: Abnormal requests detected through Firewall
 D->>C: Signal is sent to Firewall to block specific source of anomaly
 B->>C: Botnet IP's are blocked from sending help requests
-```
+```  
 #### **Description of Attack Sequence**
 1. Attacker signals to Botnet to begin attack 
 2. Botnet begins to overload help center with requests slowing traffic for all users
