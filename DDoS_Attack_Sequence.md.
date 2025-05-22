@@ -1,8 +1,9 @@
 ```mermaid
 sequenceDiagram
-  participant Attacker
-  participant BotNet
-  participant WebServer
-  participant Firewall
+  participant A as Attacker
+  participant B as Botnet
+  participant C as Firewall
+  participant D as IDS
+  participant E as Webserver
   
 ```
