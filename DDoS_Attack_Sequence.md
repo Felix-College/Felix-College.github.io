@@ -10,7 +10,7 @@ A->>B: Signal to Botnet to begin attack
 B->>E: Botnet begins to overload Webserver help center
 D-->C: Abnormal requests detected through Firewall
 D->>C: Signal is sent to Firewall to block specific source of anomaly
-B->>C: Botnet is 
+B->>C: Botnet is blocked from sending help requests
 
 
 
